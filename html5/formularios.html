@@ -10,7 +10,7 @@
         <h1>Formulário</h1>
         <hr>
         <br>
-        <form>
+        <form action="" method="">
             <div>
                 <label for="texto">Nome:</label>
                 <input type="text" id="texto" name="nome">
@@ -44,6 +44,41 @@
                 <label for="arquivo">Arquivo:</label>
                 <input type="file" id="arquivo" name="arquivo">
             </div>
+
+            <div>
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="url">
+            </div>
+
+            <div>
+                <label for="color">Cor:</label>
+                <input type="color" id="color" name="color">
+            </div>
+
+            <div>
+                <label for="range">Escala:</label>
+                <input type="range" id="range" name="range" value="100" max="200" min="100">
+            </div>
+            <div>
+                <label for="checkbox">Caixa de Seleção:</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+            </div>
+            <div>
+                <label for="radio">Caixa de Seleção 2:</label>
+                <input type="radio" id="radio" name="radio">
+            </div>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <div>
+                <!-- <label for="reset"></label> -->
+                <input type="reset" id="reset" name="reset" value="Limpar">
+            </div>
+
+            <div>
+                <!-- <label for="submit"></label> -->
+                <input type="submit" id="submit" name="submit" value="Enviar">
+            </div>
+
+            
         </form>
     </main>
 </body>
