@@ -4,13 +4,19 @@
 }
 
 h1 {
-    color: #faf000; 
+    color: blueviolet; 
     font-size: 96px;
     font-weight: 900;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 p {
     font-size: 18px;
+    text-align: justify;
+    text-indent: 90px;
 }
 
 .bg {
