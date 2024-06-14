@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root {
+    font-size: 62.5%;
+}
+
 body{
     font-family: 'Times New Roman', Times, serif;
 }
