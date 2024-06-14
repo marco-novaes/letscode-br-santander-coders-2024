@@ -1,0 +1,17 @@
+#companies-table {
+    /* display: none; */
+}
+
+[data-company]{
+    background-color: aqua;
+}
+
+@media screen and (min-width:1000px) {
+    
+}
+
+@media print{
+    .bg {
+        display: none;
+    }
+}
