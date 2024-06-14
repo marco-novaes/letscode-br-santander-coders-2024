@@ -118,6 +118,7 @@ nav.menu{
 }
 .boxes{
     position: relative;
+    container: flex;
 }
 .box{
     height: 10rem;
@@ -133,10 +134,22 @@ nav.menu{
 }
 
 .box:nth-child(1){
+    float:none ;
+
+}
+/* .box:nth-child(3){
+    float:left ;
+
+} */
+
+.box + span {
+    clear: both;
+}
+/* .box:nth-child(1){
     position: absolute;
     top: 30px;
     left: 100px;
-}
+} */
 
 /* .box:nth-child(2){
     position: fixed;
