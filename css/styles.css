@@ -3,3 +3,11 @@ h1 {
     font-size: 96px;
     font-weight: 900;
 }
+
+.bg {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    background-image: url("https://images.unsplash.com/photo-1718046438807-1ba666a16576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
