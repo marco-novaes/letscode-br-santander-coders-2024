@@ -22,10 +22,15 @@
     background-color: blue;
     color: #fff;
     font-size: 4rem;
-    display: inline-block;
     order:10;
     /* flex-basis: calc(50% - 5rem); */
     flex: 1;
+    
+    /* text-align: center; */
+    display: flex;
+    gap: 0 2rem;
+    justify-content: center;
+    align-content: center;
 }
 
 .box:nth-child(1){
@@ -36,7 +41,12 @@
 }
 .box:nth-child(7){
     order: 3;
+    flex: 2;
 }
 /* main {
     padding: 7rem 0;
 } */
+
+.box p, button {
+    font-size: 4rem;
+}
