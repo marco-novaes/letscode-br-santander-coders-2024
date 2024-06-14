@@ -29,6 +29,9 @@ h1 {
     visibility: hidden; */
 }
 
+[data-anchor="products"]:hover{
+    transform: scale(1.2) rotate(30deg) translateY(10rem);
+}
 #companies-table {
     /* display: none; */
 }
