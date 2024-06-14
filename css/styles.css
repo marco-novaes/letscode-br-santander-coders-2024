@@ -119,8 +119,14 @@ nav.menu{
 .boxes{
     position: relative;
     container: flex;
+    flex-wrap: wrap;
+}
+
+.box + span{
+    display: none;
 }
 .box{
+    flex: 30%;
     height: 10rem;
     width: 20rem;
     margin: 1.5rem;
