@@ -7,9 +7,24 @@
 }
 
 @media screen and (min-width:1000px) {
-    
+    .bg {
+        height: 40vh;
+    }
 }
 
+@media screen and (min-width:768px) and (max-width:999px){
+    .bg {
+        height: 80vh;
+    }
+}
+@media screen and (max-width:767x){
+    table{
+        display: none;
+    }
+    h2{
+        color: red;
+    }
+}
 @media print{
     .bg {
         display: none;
