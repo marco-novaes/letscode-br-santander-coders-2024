@@ -23,10 +23,17 @@
     color: #fff;
     font-size: 4rem;
     display: inline-block;
+    order:10;
 }
 
-.box:nth-child(3){
-    order: 0;
+.box:nth-child(1){
+    order: 1;
+}
+.box:nth-child(2){
+    order: 2;
+}
+.box:nth-child(7){
+    order: 3;
 }
 /* main {
     padding: 7rem 0;
