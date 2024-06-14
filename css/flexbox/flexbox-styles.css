@@ -2,6 +2,7 @@
     /* height: calc(100vh - 14rem); */
     position: relative;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
